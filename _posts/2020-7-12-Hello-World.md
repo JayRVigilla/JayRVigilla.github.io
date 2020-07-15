@@ -3,16 +3,9 @@ layout: post
 title: Hello, World.
 ---
 
-Hi! I'm Jay, a recent boot camp grad and half-his-life-Food-&-Hospitality-Professional. I'm looking for work. Yes, a J-O-B. That process is in the works, though _everyone_ is looking for work right now thanks to the __COVID__ craziness we've all been swept into. While I've got some ideas kicking around, I'll use this opportunity to keep limber and code.
+Hi! I'm Jay, a recent boot camp grad and half-his-life-Food-&-Hospitality-Professional. I'm looking for work. Yes, a J-O-B. That process is in the works, though _everyone_ is looking for work right now thanks to the **__COVID__** craziness we've all been swept into. While I've got some ideas kicking around, I'll use this opportunity to keep limber and code.
 
-This is where I should declare:
-I'm going to start #100daysofcode on Monday, 07/13/2020.
-
-I'll be following the rules here at [100daysofcode.com](https://www.100daysofcode.com/). They're super simple:
-1. Code minimum an hour every day for the next 100 days.
-2. Tweet your progress every day with the #100DaysOfCode hashtag.
-
-And there's a little more, but that's the only real time commitment. I'll do a little more exposition here on what I've done.
+So here we go...
 
 __My first project:__
 ---------------------
