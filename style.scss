@@ -25,9 +25,9 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  padding: 0 0;
   width: 100%;
+  background-color: #ecf1f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 0em 0em .5em;
   padding: 0;
 
   @include mobile {
@@ -123,11 +123,11 @@ img {
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
-  background: $lightGray;
+  background: $darkGray;
 }
 ::selection {
   color: $black;
-  background: $lightGray;
+  background: $blue;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -151,12 +151,14 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  background-color: $darkGray;
+  position: sticky;
+  top: 0;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 7px;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -224,7 +226,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin: 10px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -242,8 +244,8 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding: 0em 2em 2em 2em;
+  border-bottom: 1px solid $gray;
 }
 
 .posts > .post:last-child {
@@ -255,7 +257,7 @@ nav {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
-    padding: 0.1em 1em;
+    padding: 1em 1em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
@@ -272,15 +274,22 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  // margin-top: 33px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $darkGray;
+  position: sticky;
+  bottom: 0;
+}
+
+article {
+  padding: 2em;
 }
 
 footer {
-  padding: 20px 0;
+  padding: .5vh 0px 0px;
   text-align: center;
+  background-color: $darkGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
