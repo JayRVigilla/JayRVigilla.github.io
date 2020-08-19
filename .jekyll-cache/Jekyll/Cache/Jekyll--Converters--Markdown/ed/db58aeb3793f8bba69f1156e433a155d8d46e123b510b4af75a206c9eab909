@@ -1,0 +1,9 @@
+I"¼<p>Since my teenage years I romanticized
+```javascript
+class Diner {
+  constructor(name, boothCount) {
+    this.name = name;
+    this.boothCount = boothCount;
+    this.coffee = 0;
+  }</p>
+:ET
