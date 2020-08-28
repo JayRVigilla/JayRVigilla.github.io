@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $black;
   font: 18px/1.4 $lato;
-  color: $darkGray;
+  color: $blue;
 }
 
 .container {
@@ -90,6 +90,7 @@ ul {
 
 ol {
   list-style-type: decimal;
+  color: $blue;
 }
 
 ol ul, ul ol, ul ul, ol ol {
@@ -279,10 +280,9 @@ nav {
 }
 
 .wrapper-footer {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $darkGray;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   bottom: 0;
 }
 
@@ -291,7 +291,6 @@ article {
 }
 
 footer {
-  padding: .5vh 0px 0px;
   text-align: center;
   background-color: $darkGray;
 }

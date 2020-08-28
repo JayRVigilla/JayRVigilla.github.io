@@ -20,11 +20,13 @@ title: Code is language // Objectifying language
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When we write a sentence in English, we're supposed to have a subject and predicate. A noun and verb. Same as in coding. "Fish" as a sentence means little and is pretty ambiguous. What about the fish? Are you telling someone to go fishing? Do you want a fish? "You, give me a fish," is clear and has a subject (you) and predicate (give). I could write that as `you.give(fish)` in JavaScript.
 
 
-**Let's say something else!**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Let's say something else!**
 
-`	you.say("it ain't so.")` is the instruction, "Say, 'it ain't so.'"
-`jay.eat(burrito)` is the command, "Jay, eat a burrito."
-`you.goChasingWaterfalls(false)` would be how I tell the computer, "don't go chasing waterfalls."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`you.say("it ain't so.")` is the instruction, "Say, 'it ain't so.'"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`jay.eat(burrito)` is the command, "Jay, eat a burrito."
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`you.goChasingWaterfalls(false)` would be how I tell the computer, "don't go chasing waterfalls."
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notice it's all commands. Remember, it's not a real conversation with a computer. No banter, no back and forth. It's directions. I am telling a computer what to do and in what order. A computer will only do exactly what it is told. So if we give instructions correctly, things go right. Otherwise, they're like wishes to a naive genie: Something is always just a little wrong. Fortunately, you can test your code before having rippling effects across space-time. Not so much with the genie wishes.
 
