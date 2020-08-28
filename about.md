@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Jay and I'm a Web Dev. I grew up and live in the San Francisco Bay Area. I've been a Food & Hospitality Professional for years. I started coding to problem solve at work and build things. In March 2020 I started a Full-Stack coding boot camp and started to take steps for a career change. I'll be doing tutorials, blogging things I'm building, and we'll see what else.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a Full Stack Software Engineer in the San Francisco Bay Area. My career in tech started after graduating from Rithm School in San Francisco. Rithm is a Full Stack Coding boot camp that takes students from vanilla JavaScript to company internships.
 
-### More Information
-
-I'm a father of two, doggy daddy to our rescue named Copper, happily coupled fo' life, and a recovering comicbook geek (went comicbook sober in my early 30s).
-
-### Contact me
-
-[jayrvigilla@gmail.com](mailto:jayrvigilla@gmail.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In my spare time I enjoy cooking and baking, gardening, running with my dog, strength training, and any excuse to be in the sun with my family. I also enjoy escape rooms, trivia, and board games.

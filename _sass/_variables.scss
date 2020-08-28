@@ -4,20 +4,19 @@
 //
 
 // Colors
-$blue: #4183C4;
+$blue: #8291B3;
 
 // Grays
 $black: #000;
 $darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$darkGray: #222729;
+$gray: #666666;
+$lightGray: #ffffff80;
 $white:#fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$bebas: 'Bebas Neue', serif;
+$lato: 'Lato', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

@@ -1,9 +1,0 @@
-I"½<p>Growing up I used to stay out late and
-```javascript
-class Diner {
-  constructor(name, boothCount) {
-    this.name = name;
-    this.boothCount = boothCount;
-    this.coffee = 0;
-  }</p>
-:ET

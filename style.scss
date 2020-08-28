@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $lato;
   color: $darkGray;
 }
 
@@ -27,12 +27,12 @@ body {
   margin: 0 auto;
   padding: 0 0;
   width: 100%;
-  background-color: #ecf1f1;
+  background-color: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $bebas;
+  color: $gray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,6 +65,8 @@ h4 {
 }
 
 p {
+  font-family: $lato;
+  color: $blue;
   margin: 15px 0;
 }
 
@@ -158,7 +160,7 @@ img {
 
 .masthead {
   padding: 7px;
-  border-bottom: 1px solid $darkGray;
+  background-color: $darkGray;
 
   @include mobile {
     text-align: center;
@@ -195,9 +197,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $blue;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $lato;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -216,7 +218,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $lato;
   font-size: 18px;
 
   @include mobile {
@@ -228,7 +230,7 @@ nav {
 
   a {
     margin: 10px;
-    color: $darkGray;
+    color: $lightGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -246,7 +248,7 @@ nav {
 
 .posts > .post {
   padding: 0em 2em 2em 2em;
-  border-bottom: 1px solid $gray;
+  border-bottom: 1px solid $darkerGray;
 }
 
 .posts > .post:last-child {
@@ -271,11 +273,12 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    color: $lightGray;
+    text-decoration: double;
   }
 }
 
 .wrapper-footer {
-  // margin-top: 33px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $darkGray;
