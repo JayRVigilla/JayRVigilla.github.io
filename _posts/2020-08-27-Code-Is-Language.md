@@ -4,7 +4,7 @@ title: Code is language // Objectifying language
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What scared me about learning to code was thinking there was a lot of math involved. I muddled through Calc 2 in college, but I can’t say that any of it stuck. Calculus forwards is hard enough, now we're doing it backward? This fear came about because the operators and symbols used are also in math equations. When really, coding is more like writing logical instructions to computers with words. Coding is in a language after all.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Math teachers should not be the only ones teaching logic. English teachers should be too! Think about it: how often have you read a sentence that doesn’t make sense? Look in your texts and consider how little each of those texts makes as stand-alone sentences. Today we’re looking at coding as a language to express ideas. I’ll be using JavaScript as our programming language because I’m most comfortable with it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Math teachers should not be the only ones teaching logic. English teachers should be too! Think about it: how often have you read a sentence that doesn’t make sense? Look in your texts and consider how little sense each of those texts makes as stand-alone sentences. Today we’re looking at coding as a language to express ideas. I’ll be using JavaScript as our programming language because I’m most comfortable with it.
 
 ## Parts of Speech
 
