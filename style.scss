@@ -67,7 +67,8 @@ h4 {
 p {
   font-family: $lato;
   color: $blue;
-  margin: 15px 0;
+  margin: 7px 0;
+  text-indent: 2em;
 }
 
 a {
@@ -111,6 +112,21 @@ strong, b {
 
 img {
   max-width: 100%;
+
+}
+
+figure.float-left{
+  max-width: 50%;
+  margin: 0 .65em 0 .65em;
+  float: left;
+  font-size: 50%;
+}
+
+figure.float-right{
+  max-width: 50%;
+  margin: 0 .65em 0 .65em;
+  float: right;
+  font-size: 50%;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -125,12 +141,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $darkGray;
+  color: $white;
+  background: $lightBlue;
 }
 ::selection {
-  color: $black;
-  background: $blue;
+  color: $white;
+  background: $lightBlue;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -210,6 +226,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  text-indent: 0;
 
   @include mobile {
     margin: 3px 0;
@@ -248,6 +265,7 @@ nav {
 //
 
 .posts > .post {
+  margin: 0 auto;
   padding: 0em 2em 2em 2em;
   border-bottom: 1px solid $darkerGray;
 }
@@ -286,7 +304,9 @@ nav {
   bottom: 0;
 }
 
-article {
+article.post {
+  margin: 0 auto;
+  width: 80%;
   padding: 2em;
 }
 
