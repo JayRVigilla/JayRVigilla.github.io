@@ -9,7 +9,7 @@ output:
 
 <figure class="float-left">
 <div>
-<img src="/images/saute-flare.png" alt="jay cooks in a restaurant">
+<img src="https://drive.google.com/uc?export=view&id=1ybhWoxYIE_9W6sDeoR-IXgEdYPjMb-Tc" alt="jay cooks in a restaurant">
 <figcaption>Ubiquitous photo of a flaming saute pan. Cooks don't really like having flare ups, the food tastes scorched. </figcaption>
 </div>
 </figure>
