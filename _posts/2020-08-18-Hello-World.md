@@ -12,8 +12,7 @@ output:
 <img src="https://drive.google.com/uc?export=view&id=1ybhWoxYIE_9W6sDeoR-IXgEdYPjMb-Tc" alt="jay cooks in a restaurant">
 <figcaption>Ubiquitous photo of a flaming saute pan. Cooks don't really like having flare ups, the food tastes scorched. </figcaption>
 </div>
-</figure>
-Years ago, I fell in love with a career. Every day I went to work excited to do and learn more about the industry. With so many different sources of information and a wide variety of styles to dive deep into it was a learner's paradise. I'd leave work and spend my nights at home experimenting with a small idea until the late hours of the night. Then I found out what it was that was exciting about this industry. I thrived on solving problems. I loved finding new ways to accomplish anything in the Restaurant Industry, but it turned out I loved solving problems anywhere!
+</figure>Years ago, I fell in love with a career. Every day I went to work excited to do and learn more about the industry. With so many different sources of information and a wide variety of styles to dive deep into it was a learner's paradise. I'd leave work and spend my nights at home experimenting with a small idea until the late hours of the night. Then I found out what it was that was exciting about this industry. I thrived on solving problems. I loved finding new ways to accomplish anything in the Restaurant Industry, but it turned out I loved solving problems anywhere!
 
 I started a job at a worker-owned collective and enjoyed collaborating with others to solve the problems of a growing company. The day came when I found a problem I thought could be solved with programming: produce orders. I assumed it simple to write a script to estimate how much pizza we'd sell on a given day. We had years of sales reports that I could use as data points. This is when I decided to start learning Python.
 
