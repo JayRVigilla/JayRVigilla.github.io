@@ -119,22 +119,33 @@ img {
 
 }
 
-figure.float-left{
+.float-left{
   max-width: 50%;
+  height: auto;
+  overflow: hidden;
   margin: 0 .65em 0 .65em;
   float: left;
   font-size: 50%;
 }
 
-figure.float-right{
+.float-right{
   max-width: 50%;
+  // height: auto;
+  max-height: 240px;
+  overflow: hidden;
   margin: 0 .65em 0 .65em;
   float: right;
   font-size: 50%;
 }
 
-figure.float-left > img, figure.float-right > img {
-  max-height: 30%;
+// figure.float-left > img, figure.float-right > img {
+//   max-height: 30%;
+//   // height: auto;
+//   overflow: hidden;
+// }
+
+figcaption{
+  max-width: 95%;
 }
 
 // Fixes images in popup boxes from Google Translate
