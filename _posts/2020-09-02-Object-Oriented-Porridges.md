@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code is language // Objectifying language
+title: Object-Oriented Porridges // a lesson in Classes
 ---
 
 <figure class="float-left">
