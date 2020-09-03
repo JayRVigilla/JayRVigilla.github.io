@@ -274,7 +274,14 @@ nav {
 // .main
 //
 
+.posts{
+  width: 75%;
+  margin: 0 auto;
+}
+
 .posts > .post {
+  width: 100%;
+  display: inline-block;
   margin: 0 auto;
   padding: 0em 2em 2em 2em;
   border-bottom: 1px solid $darkerGray;
