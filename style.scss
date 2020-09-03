@@ -106,6 +106,10 @@ em, i {
   font-style: italic;
 }
 
+code{
+  color: blue;
+}
+
 strong, b {
   font-weight: bold;
 }
@@ -127,6 +131,10 @@ figure.float-right{
   margin: 0 .65em 0 .65em;
   float: right;
   font-size: 50%;
+}
+
+figure.float-left > img, figure.float-right > img {
+  max-height: 30%;
 }
 
 // Fixes images in popup boxes from Google Translate

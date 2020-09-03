@@ -1,0 +1,9 @@
+I"�<figure class="float-left">
+<div>
+<img src="https://live.staticflickr.com/7197/6882544451_52caa8c5d9_b.jpg" alt="Risotto" />
+<figcaption>Champagne Risotto&lt;/i&gt;
+</figcaption>
+</div>
+</figure>
+<p>One of my favorite dishes to make in restaurants was porridge. To be more concise: I liked making risotto in restaurants. Risotto is an instance of <code class="language-plaintext highlighter-rouge">Porridge</code>. So is polenta, arroz caldo, and congee. And I like cooking steal head oats, which is also an iteration of “porridge.” Calling something an instance, or “instantiation,” is how we say that there is a big definition of something, “porridge,” and there are other foods that fall under the big umbrella definition. Having a larger definition of something, a blueprint, is one of the reasons for Object-Oriented Programming. It also helps to define things in our world.</p>
+:ET
