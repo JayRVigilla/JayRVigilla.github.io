@@ -3,7 +3,7 @@ layout: post
 title: Code is language // Objectifying language
 ---
 
-<figure class="float-right">
+<figure class="float-right clearfix">
 <div>
 <img src="https://media.giphy.com/media/fyzODLrZORdUA/giphy.gif" alt="Math is worthless in real life">
 <figcaption>Leslie Knope, you are an opalescent tree shark.</figcaption>

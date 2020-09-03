@@ -122,7 +122,6 @@ img {
 .float-left{
   max-width: 50%;
   height: auto;
-  overflow: hidden;
   margin: 0 .65em 0 .65em;
   float: left;
   font-size: 50%;
@@ -130,19 +129,11 @@ img {
 
 .float-right{
   max-width: 50%;
-  // height: auto;
   max-height: 240px;
-  overflow: hidden;
   margin: 0 .65em 0 .65em;
   float: right;
   font-size: 50%;
 }
-
-// figure.float-left > img, figure.float-right > img {
-//   max-height: 30%;
-//   // height: auto;
-//   overflow: hidden;
-// }
 
 figcaption{
   max-width: 95%;
@@ -287,10 +278,11 @@ nav {
   margin: 0 auto;
   padding: 0em 2em 2em 2em;
   border-bottom: 1px solid $darkerGray;
+  clear: both;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
   border-bottom: none;
 }
 
