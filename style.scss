@@ -139,6 +139,10 @@ figcaption{
   max-width: 95%;
 }
 
+figure > div > img{
+  max-height: 80%;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
