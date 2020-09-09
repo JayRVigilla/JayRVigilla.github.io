@@ -2,9 +2,6 @@
 layout: post
 title: hello("World") // a greeting
 output:
-  # html_document:
-  #   css: _posts/posts.scss
-  #   self_contained: no
 ---
 
 <figure class="float-left">
