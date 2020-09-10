@@ -1,4 +1,4 @@
-I"�;<figure class="float-left">
+I"<<figure class="float-left">
 <div>
 <img src="https://live.staticflickr.com/7197/6882544451_52caa8c5d9_b.jpg" alt="Risotto" />
 <figcaption>Champagne Risotto</figcaption>
@@ -10,10 +10,9 @@
 
 <p>This time around I’m going to use some pseudo-code for these examples. I’ll mark comment lines with “//” in front. Read these comments to get a heads up on what you’re reading below.</p>
 
-<p>Here we see an example of a class for <code class="language-plaintext highlighter-rouge">Porridge</code>.  Below, I’m declaring a class named “<code class="language-plaintext highlighter-rouge">Porridge</code>” that requires two things to create it: liquid, and grain</p>
+<p>Here we see an example of a class for <code class="language-plaintext highlighter-rouge">Porridge</code>.  Below, I’m declaring a class named “<code class="language-plaintext highlighter-rouge">Porridge</code>” that requires two things to create it: liquid, and grain. At the top you’ll see properties <a href="https://jayrvigilla.github.io/Code-Is-Language/">(remember adjectives in the last post?)</a>) that describe how the class is defined.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Porridge</span> <span class="p">(</span><span class="nx">liquid</span><span class="p">,</span> <span class="nx">grain</span><span class="p">)</span>
-	<span class="c1">// this is a property (remember adjectives in the last post?) that describes how the class is defined.</span>
 	<span class="nx">define</span><span class="p">:</span> <span class="dl">"</span><span class="s2">food that is made with a grain and liquid.
 	CONSISTENCY: </span><span class="dl">"</span><span class="nx">creamy</span><span class="dl">"</span><span class="s2">
 	DISH: bowl

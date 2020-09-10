@@ -1,19 +1,18 @@
-I"�;<figure class="float-left">
+I"�;<figure class="float-left">
 <div>
 <img src="https://live.staticflickr.com/7197/6882544451_52caa8c5d9_b.jpg" alt="Risotto" />
 <figcaption>Champagne Risotto</figcaption>
 </div>
 </figure>
-<p>One of my favorite dishes to make in restaurants was porridge. To be more concise: I liked making risotto in restaurants. Risotto is an <em>instance</em> of <code class="language-plaintext highlighter-rouge">Porridge</code>. So is polenta, arroz caldo, and congee. And I like cooking steal head oats, which is also an iteration of “porridge.” Calling something an instance, or “instantiation,” is how we say that there is a big definition of something, “porridge,” and there are other foods that fall under the big umbrella definition. Having a larger definition of something, a blueprint, is one of the reasons for Object-Oriented Programming. It also helps to define things in our world.</p>
+<p>One of my favorite dishes to make in restaurants was porridge. To be more concise: I liked making risotto in restaurants. Risotto is an <em>instance</em> of <code class="language-plaintext highlighter-rouge">Porridge</code>. So is polenta, arroz caldo, and congee. And I like cooking steal head oats, which is also an instance of “porridge.” Calling something an instance, or “instantiation,” is how we say that there is a big definition of something, “porridge,” and there are other foods that fall under the big umbrella definition. Having a larger definition of something, a blueprint, is one of the reasons for Object-Oriented Programming. It also helps to define things in our world.</p>
 
 <p>Think about the last time you were in a restaurant. I’m in month six of COVID-land, so if it takes a while to remember I’ll wait <a href="https://media.giphy.com/media/553Zs1KrXN7A3H7ofT/giphy.gif">here</a>. The menu is separated into sections with headings like “appetizers,” “soup,” “pasta,” “main”/”entree”,  and “dessert.” We’ve fallen into the convention that if we want to eat something that is typically wet and brothy, it’ll be found in the “soup” section, not “pasta.” Now each soup in that section is an instance, or child, of the definition of soup. They’re all basically (when seen through the eyes of an alien) the same thing: something wet, typically served hot, for eating with a spoon.</p>
 
 <p>This time around I’m going to use some pseudo-code for these examples. I’ll mark comment lines with “//” in front. Read these comments to get a heads up on what you’re reading below.</p>
 
-<p>Here we see an example of a class for <code class="language-plaintext highlighter-rouge">Porridge</code>.  Below, I’m declaring a class named “<code class="language-plaintext highlighter-rouge">Porridge</code>” that requires two things to create it: liquid, and grain</p>
+<p>Here we see an example of a class for <code class="language-plaintext highlighter-rouge">Porridge</code>.  Below, I’m declaring a class named “<code class="language-plaintext highlighter-rouge">Porridge</code>” that requires two things to create it: liquid, and grain property (remember <a href="https://jayrvigilla.github.io/Code-Is-Language/">adjectives in the last post?</a>) that describes how the class is defined.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nx">Porridge</span> <span class="p">(</span><span class="nx">liquid</span><span class="p">,</span> <span class="nx">grain</span><span class="p">)</span>
-	<span class="c1">// this is a property (remember adjectives in the last post?) that describes how the class is defined.</span>
 	<span class="nx">define</span><span class="p">:</span> <span class="dl">"</span><span class="s2">food that is made with a grain and liquid.
 	CONSISTENCY: </span><span class="dl">"</span><span class="nx">creamy</span><span class="dl">"</span><span class="s2">
 	DISH: bowl

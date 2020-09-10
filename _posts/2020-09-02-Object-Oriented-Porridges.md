@@ -14,11 +14,10 @@ Think about the last time you were in a restaurant. I'm in month six of COVID-la
 
 This time around I'm going to use some pseudo-code for these examples. I'll mark comment lines with "//" in front. Read these comments to get a heads up on what you're reading below.
 
-Here we see an example of a class for `Porridge`.  Below, I'm declaring a class named "`Porridge`" that requires two things to create it: liquid, and grain
+Here we see an example of a class for `Porridge`.  Below, I'm declaring a class named "`Porridge`" that requires two things to create it: liquid, and grain. At the top you'll see properties [(remember adjectives in the last post?)](https://jayrvigilla.github.io/Code-Is-Language/)) that describe how the class is defined.
 
 ```javascript
 class Porridge (liquid, grain)
-	// this is a property (remember adjectives in the last post?) that describes how the class is defined.
 	define: "food that is made with a grain and liquid.
 	CONSISTENCY: "creamy"
 	DISH: bowl
