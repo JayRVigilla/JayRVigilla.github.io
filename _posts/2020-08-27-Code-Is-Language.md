@@ -22,7 +22,7 @@ Math teachers should not be the only ones teaching logic. English teachers shoul
 >
 > **JavaScript**:
 >
-> object, properties, method, ( `&&, !, ||**`).
+> object, properties, method, logical operators ( `&&, !, ||`).
 
 What are objects? They’re nouns. A person, place, or thing. In JavaScript a String is just text, a value of the text that is accepted literally.  JavaScript Numbers are... well... how do we describe the idea of a number in real life? Consider how the concept of 42 can be written differently in Arabic numbers or Japanese characters. They both mean the concept of 42 without being the literal characters "42."
 
