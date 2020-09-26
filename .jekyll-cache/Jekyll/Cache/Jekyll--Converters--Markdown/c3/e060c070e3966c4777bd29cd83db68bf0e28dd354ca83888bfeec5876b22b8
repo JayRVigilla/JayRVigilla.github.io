@@ -1,0 +1,53 @@
+I"�<figure class="float-right clearfix">
+<div>
+<img src="https://media.giphy.com/media/2es6KxafFqDWqGtnFW/giphy.gif" alt="Deadpool breaking the fourth wall" />
+<figcaption>Breaking the fourth wall</figcaption>
+</div>
+</figure>
+<p>What scared me learning to code was thinking there was a lot of math. I muddled through Calc 2 in college. None of it stuck. This fear came about because the only recognizable characters I saw were things wrapped in braces, + and =. There were even &lt;, &gt;, and arrows! Finding mistakes in math always meant doing more work to fix it, which did not appeal to college me. Instead, coding is like learning to speak a new language. There are multiple translations to do before you make sense.</p>
+
+<p>My experience learning to code has been like using Spanish while working in restaurants. I picked up the vocabulary and grammatical structure in school to get by asking where the bathroom is and buying a shirt in a store. When I started working with native Spanish speakers, I had to focus hard to pick apart what they’re saying. I would stop them often to ask for vocabulary and context. Eventually, I began laughing with co-workers, talking about family, and setting them up on dates. There were also times I’d said phrases like a child would because I guessed at the grammar. Small mistakes, but I could get the idea across and learn from them. I never got to the point where I would think in Spanish. My mind was still inherently in English. I’d think about what I wanted to say in English, plot it out in Spanish, rewrite it, and then rehearse in my head. The process only got quicker, never innate. That is the case for me in coding too.</p>
+
+<p>I still plot out what I aim to do in a human language before I write code. It’s not bad by any means. I like knowing that what I say will mean something. In high school, I was often dumbfounded by my English teacher when he’d ask me what my thesis is. My answer was often a long sustained, “uh.” Then Mr. Seike would be kind enough to help me figure out what I’m trying to say and send me off to work on my next draft. Drafts can happen even for the simplest of ideas.</p>
+
+<p>Take a Javascript “for loop” for instance. You would use a for loop whenever you wanted to act upon each element of something in order. For example, each character in a line of text or a collection of items in something called an Array (think of a list of house paint colors). A for loop typically looks something like:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">iterable</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">iterable</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>For anyone who doesn’t speak robot, here’s how I translate in English:</p>
+
+<blockquote>
+  <p>for the following conditions:</p>
+
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> - Let there be a variable "i" and give it a starting value of 0.
+
+ - We will continue performing the following clause so long as i is less than the number of items &gt; in the collection of things.   ...- Each time we complete doing the following instructions, we will increment the value of i by &gt; one.   - Tell me the value of the collection is at the ith position.
+</code></pre></div>  </div>
+</blockquote>
+
+<p>A long explanation. It takes up way more characters and twice as many lines. Also, no one talks like that. However, I’ll do something like that before I write. It’s an outline of what I’m writing just like I had/should’ve done in high school. Here it’s called pseudocode. Not actually code. Not strictly my native problem-solving language. When I pseudocode and read it back, I can learn what I don’t understand about the process. Pseudocode even helps me realize that a shorter way to say it in English could be:</p>
+
+<p>“Go through the iterable and tell me each item.”</p>
+
+<p>Let’s do it in another language too! In Spanish, I would say:</p>
+
+<p>“Digame todos las cosas en la cosa.”
+Which translates to “tell me all the things in the thing.”</p>
+
+<p>Guess what? Code can say that too:</p>
+
+<p>iterable.forEach( item =&gt; console.log(item))</p>
+
+<p>Here you’ve seen a translation of an idea in English to Javascript. Then we checked our phrase over and thought it was too long and became concise. By changing our code to something readable, we’ve refactored our code. Refactoring is a rewriting of code to improve for readability or performance.</p>
+
+<p>Notice I said OR. Here’s a story from a family member (we’ll call R) that had a job interview at a tech company years ago. They were interviewing for a management role and given a coding problem to solve. The code R wrote looked more like the first for loop above compared to the last one.
+“I was expecting this in one line.” the interviewer said.
+R had explained it wouldn’t improve the performance of the code, nor did that make it easier for another engineer to maintain. The interviewer had asked R to do it anyway. Having still been employed, R was able to say (professionally) that they’ll do it but would not like to proceed further with the interview process. You see, the interviewer pointed out a cultural piece of that company’s management R would not abide. R knows that code needs to be maintained by people, not just machine-readable.</p>
+
+<p>The code is instructions written for computers to follow. But a human needs to be able to comprehend it. I think again about my English teacher. He’d tell me I was trying to work too many metaphors into my essays. There was a lot of stretching to make my writing fit the metaphors. Writing clever does not always translate to clear communication.</p>
+
+<p>Coding hasn’t been an overnight success for me. Nor has writing, speaking Spanish, or even cooking. I would never have been conversational in Spanish if my co-workers didn’t help me. Nor would I be writing anything if Mr. Seike hadn’t edited for me.</p>
+:ET
